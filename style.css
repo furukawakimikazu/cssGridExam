@@ -116,6 +116,10 @@ p a:hover {
   background: #ef9504;
 }
 
+p img {
+  width: 250px;
+}
+
 /* 記事一覧 */
 section {
   grid-row: recent;
