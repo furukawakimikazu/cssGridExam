@@ -204,6 +204,12 @@ body::after {
   grid-row: submenu;
 }
 
+/* 記事ページ：時計アイコン */
+.fa-clock {
+  color: #888888;
+  margin-right: 5px;
+}
+
 
 /* ======== PC版：の設定 ============ */
 
