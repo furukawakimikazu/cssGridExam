@@ -47,7 +47,7 @@ nav {
   align-self: end;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0;
   display: grid;
@@ -120,8 +120,8 @@ figure.hero img {
   width: 250px;
 }
 
-/* 記事一覧 */
-section {
+/* 記事一覧　記事ページの注目記事メニュー */
+section, aside ul {
   grid-row: recent;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -129,15 +129,15 @@ section {
   gap: 20px 10px;
 }
 
-section a {
+section a, aside a {
   color: #000;
   text-decoration: none;
 }
 
-section a:hover {
+section a:hover, aside a:hover {
   text-decoration: underline;
 }
-section h3 {
+section h3, aside h3 {
   font-size: 14px;
 }
 
@@ -199,17 +199,48 @@ body::after {
   grid-row: kiji;
 }
 
-/* 記事ページ：サブメニュー */
-.post div {
-  grid-row: submenu;
-}
-
 /* 記事ページ：時計アイコン */
 .fa-clock {
   color: #888888;
   margin-right: 5px;
 }
 
+/* 記事ページ：サブメニュー */
+.post div {
+  grid-row: submenu;
+}
+
+aside {
+  border: solid 1px #ddd;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+aside h2 {
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #888;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+aside p {
+  font-size: 14px;
+}
+
+aside:first-child img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 /* ======== PC版：の設定 ============ */
 
