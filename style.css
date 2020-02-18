@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* テキストの自動拡大を無効化 */
+body {
+  -webkit-text-size-ajust: none;
+  text-size-ajust: none;
+}
+
 /* 基本設定 */
 * {
   margin: 0;
