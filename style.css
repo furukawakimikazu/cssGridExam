@@ -45,6 +45,10 @@ header {
   color: #555d6b;
   font-family: 'Raleway', sans-serif;
 }
+header a {
+  color: inherit;
+  text-decoration: none;
+}
 
 /* ナビゲーションメニュー */
 nav {
