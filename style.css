@@ -2,8 +2,8 @@
 
 /* テキストの自動拡大を無効化 */
 body {
-  -webkit-text-size-ajust: none;
-  text-size-ajust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 /* 基本設定 */
