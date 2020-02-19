@@ -273,6 +273,26 @@ td {
   background: #e8eef9;
 }
 
+/* 「お問い合わせ」ページ */
+form p {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+textarea {
+  height: 120px;
+}
+input[type="submit"] {
+  background: #ffaa00;
+  border: none;
+}
+
+
 /* ======== PC版：の設定 ============ */
 
 @media (min-width: 768px) {
