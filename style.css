@@ -290,6 +290,7 @@ textarea {
 input[type="submit"] {
   background: #ffaa00;
   border: none;
+  -webkit-appearance: none;
 }
 
 
