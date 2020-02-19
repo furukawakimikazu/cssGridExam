@@ -383,8 +383,9 @@ input[type="submit"] {
     margin-top: -20px;
   }
 
-/* pc版：「お問い合わせ」ページ */
-input[type=submit] {
-  width: 250px;
+  /* pc版：「お問い合わせ」ページ */
+  input[type=submit] {
+    width: 250px;
+  }
 }
 /* ======== PC版：の設定はここまで ============ */
